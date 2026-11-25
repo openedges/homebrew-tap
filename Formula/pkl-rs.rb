@@ -13,20 +13,20 @@ class PklRs < Formula
   on_macos do
     on_arm do
       url "https://github.com/openedges/pkl-rs/releases/download/v0.32.0-rc.3/pkl-darwin-arm64.tar.gz"
-      sha256 "a66d34d9da63d45f94508702ebff949a53394bfe2ff5701f3f50d8085508037b"
+      sha256 "86c27cad4761578bc677cea6721c117b9d9780e3935c550da907b2305aa646b5"
 
       resource "pkldoc" do
         url "https://github.com/openedges/pkl-rs/releases/download/v0.32.0-rc.3/pkldoc-darwin-arm64.tar.gz"
-        sha256 "baf0b3c4a253a46b8cbf799fb711adcef6f0b75ce089be9b97a2b99486903107"
+        sha256 "b628a36508dba831c4bfc6af93e945b783701bf9e2caec158f7630e2686db7b2"
       end
     end
     on_intel do
       url "https://github.com/openedges/pkl-rs/releases/download/v0.32.0-rc.3/pkl-darwin-x64.tar.gz"
-      sha256 "85b1c186127bd82b45b2a8eda68819975f0b32d422332089261ac4713c2feeec"
+      sha256 "64d3d581e8d1ac8c8786e45f20890424c6c08d78e8e3e7d01907d6925d3d2b5e"
 
       resource "pkldoc" do
         url "https://github.com/openedges/pkl-rs/releases/download/v0.32.0-rc.3/pkldoc-darwin-x64.tar.gz"
-        sha256 "692b90d0b54988ea69cc0c72773f6c5c58635f9e506ed9eedd8617d65265dcf4"
+        sha256 "d9828ed2c27af0c319e989d388971239e19992f62544ee2fb4ce9503df615e9b"
       end
     end
   end
@@ -34,20 +34,20 @@ class PklRs < Formula
   on_linux do
     on_arm do
       url "https://github.com/openedges/pkl-rs/releases/download/v0.32.0-rc.3/pkl-linux-arm64-gnu.tar.gz"
-      sha256 "e514a3f2936954c0f54f24282989a2c74439a2ff0eb316445c0b947a19905254"
+      sha256 "69e24ab6c35e46be36c4c0aae02947b8a21031045d406b53d0e1275bc21b9f08"
 
       resource "pkldoc" do
         url "https://github.com/openedges/pkl-rs/releases/download/v0.32.0-rc.3/pkldoc-linux-arm64-gnu.tar.gz"
-        sha256 "10252fe841aa0dadba1a18dfd74caa2010ac42faa98a9b35acb49869de404dd0"
+        sha256 "bd4c66919366b5749ab3e85a905157d2644efc6d95e33ae686fe97ac8fde12c6"
       end
     end
     on_intel do
       url "https://github.com/openedges/pkl-rs/releases/download/v0.32.0-rc.3/pkl-linux-x64-gnu.tar.gz"
-      sha256 "5797c1d79f6c0f6fbeb523d518b9ff1639a24a81c23bdde99c2e61db469c4140"
+      sha256 "98f9309b3ef8cfe23234dc5ec21026bbf71003edb3800fc8dfd99dfa85f23a5f"
 
       resource "pkldoc" do
         url "https://github.com/openedges/pkl-rs/releases/download/v0.32.0-rc.3/pkldoc-linux-x64-gnu.tar.gz"
-        sha256 "29e0ec736cfd9cacf2825bef4044deeedaf49cb4baa45c73d989a5db59552c47"
+        sha256 "658ab14601b9074d9914a215d04f8e8e3d6dac9cdd498c66566f709118824d6b"
       end
     end
   end
